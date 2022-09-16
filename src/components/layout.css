@@ -42,6 +42,8 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+  background: url('../images/granollersNord.jpeg');
+  background-size: cover;
 }
 a {
   background-color: transparent;
@@ -176,9 +178,9 @@ p *:last-child {
 li > p {
   margin-bottom: calc(var(--space-4) / 2);
 }
-p {
+/* p {
   max-width: 680px;
-}
+} */
 code {
   font-size: 0.875rem;
 }
@@ -222,3 +224,5 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+
